@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Automated Research and Trigger Finder (ART Finder)
 
-First, run the development server:
+## Objective
+The **Automated Research and Trigger Finder (ART Finder)** aims to revolutionize the research phase of ad creation by automating data gathering and analysis. This chatbot-based system enables marketers to:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Identify user pain points and triggers by scraping data using the Google Search API.
+- Analyze competitor strategies to uncover high-performing hooks, CTAs, and content formats.
+- Generate actionable insights and suggestions to craft effective, user-centric ads.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Comprehensive Research Automation
+- **Data Gathering:**
+  - Scrapes data from Google Search API for blogs, forums, and other relevant sources.
+- **Trend Identification:** Highlights emerging topics and user concerns.
 
-## Learn More
+### 2. Actionable Insights Generation
+- **Trigger and Problem Identification:** Summarizes key user pain points and motivations.
+- **Ad Content Suggestions:** Recommends high-performing hooks, CTAs, and solutions tailored to specific topics and audiences.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. User-Centric Interface
+- **Input Simplicity:** Easy-to-use fields for entering topics and brand guidelines.
+- **Insightful Output:** The chatbot provides insights and recommendations directly via the interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technical Stack
 
-## Deploy on Vercel
+- **Backend:**
+  - Developed using [LangFlow](https://github.com/logspace-ai/langflow).
+  - Utilizes **GROQ** queries for efficient data retrieval.
+  - Leverages **GPT LLM API keys** for advanced language processing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:**
+  - Built with **Next.js** for a responsive and interactive user interface.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## How It Works
+1. **Input Phase:** Users provide the topic and brand guidelines through a simple input field.
+2. **Data Collection:** The system gathers data using the Google Search API.
+3. **Analysis:** Extracted data is analyzed to identify user pain points, triggers, and successful ad elements.
+4. **Output:** Recommendations and references are provided for crafting user-centric, effective ads.
+
+
+---
+
+## Contact
+MISSION_I_M_POSSIBLE
+Mayank Gongal
+Ketan Baitule
+Gaurav Bijwe
+Tejas Keshwani
+
