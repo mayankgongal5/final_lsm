@@ -1,0 +1,47 @@
+#chat-messages h1, #chat-messages h2{
+    @apply text-2xl font-bold mt-3;
+}
+
+#chat-messages h3{
+    @apply text-xl font-bold mt-3;
+}
+
+#chat-messages h4{
+    @apply text-lg font-bold mt-3;
+}
+
+#chat-messages h5{
+    @apply text-base font-bold mt-2;
+}
+
+#chat-messages h6{
+    @apply text-sm font-bold mt-2;
+}
+
+#chat-messages p{
+    @apply text-base mt-2;
+}
+
+#chat-messages ol{
+    @apply list-decimal list-inside;
+}
+
+#chat-messages ul{
+    @apply list-disc list-inside;
+}
+
+#chat-messages li{
+    @apply mt-2;
+}
+
+#chat-messages li br{
+    @apply hidden;
+}
+
+#chat-messages{
+    @apply leading-relaxed;
+}
+
+#chat-messages li p{
+    @apply inline;
+}
