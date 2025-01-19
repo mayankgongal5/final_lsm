@@ -33,6 +33,12 @@ Below is the LangFlow data flow diagram used in the backend development:
 ![ART Finder Data Flow](flow.png)
 
 ---
+## Application Sample Images
+Below is the Images of the application:
+
+![ART Finder SampleImage](image.png)
+
+---
 
 ## Technical Stack
 
