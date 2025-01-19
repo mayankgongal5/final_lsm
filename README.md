@@ -27,6 +27,13 @@ The **Automated Research and Trigger Finder (ART Finder)** aims to revolutionize
 
 ---
 
+## Flow Diagram
+Below is the LangFlow data flow diagram used in the backend development:
+
+![ART Finder Data Flow](flow.png)
+
+---
+
 ## Technical Stack
 
 - **Backend:**
